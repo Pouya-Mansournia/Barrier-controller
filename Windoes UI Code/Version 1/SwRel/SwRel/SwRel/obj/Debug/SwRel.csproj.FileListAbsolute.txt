@@ -1,0 +1,11 @@
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\bin\Debug\SwRel.exe
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\bin\Debug\SwRel.pdb
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\obj\Debug\MainWindow.baml
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\obj\Debug\MainWindow.g.cs
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\obj\Debug\App.g.cs
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel_MarkupCompile.cache
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.g.resources
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.Properties.Resources.resources
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.csproj.GenerateResource.Cache
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.exe
+c:\users\morteza\documents\visual studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.pdb

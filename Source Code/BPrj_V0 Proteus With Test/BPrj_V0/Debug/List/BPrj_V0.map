@@ -1,0 +1,29 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer0                                                                        0x0500     104
+tx_buffer0                                                                        0x0568     104
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+rx_wr_index0                                                                      R5           1
+rx_rd_index0                                                                      R4           1
+rx_counter0                                                                       R7           1
+rx_buffer_overflow0                                                               R2.0      1bit
+tx_wr_index0                                                                      R6           1
+tx_rd_index0                                                                      R9           1
+tx_counter0                                                                       R8           1
+adc_data                                                                          R10,R11      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart0_rx_isr                                                                     0x00089     31
+usart0_tx_isr                                                                     0x000A8     23
+adc_isr                                                                           0x000BF      3
+main                                                                              0x000C2    108

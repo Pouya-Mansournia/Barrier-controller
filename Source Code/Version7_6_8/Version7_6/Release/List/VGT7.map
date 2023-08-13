@@ -1,0 +1,35 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+rx_buffer0                                                        0x0500      64
+tx_buffer0                                                        0x0540      64
+tx_wr_index0                                                      0x0580       1
+tx_rd_index0                                                      0x0581       1
+tx_counter0                                                       0x0582       1
+rx_buffer1                                                        0x0583      64
+rx_wr_index1                                                      0x05C3       1
+rx_rd_index1                                                      0x05C4       1
+rx_counter1                                                       0x05C5       1
+tx_buffer1                                                        0x05C6      64
+tx_wr_index1                                                      0x0606       1
+tx_rd_index1                                                      0x0607       1
+tx_counter1                                                       0x0608       1
+adc_data                                                          0x0609       2
+_seed                                                             0x060B       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+timeLimit                                                         R4,R5        2
+timeCounter                                                       R6,R7        2
+timeOK                                                            R8,R9        2
+E                                                                 R11          1
+rx_wr_index0                                                      R10          1
+rx_rd_index0                                                      R13          1
+rx_counter0                                                       R12          1
+rx_buffer_overflow0                                               R2.0      1bit
+rx_buffer_overflow1                                               R2.1      1bit

@@ -1,0 +1,39 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer0                                                                        0x0500      64
+tx_buffer0                                                                        0x0540      64
+_seed                                                                             0x0580       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+E                                                                                 R5           1
+rx_wr_index0                                                                      R4           1
+rx_rd_index0                                                                      R7           1
+rx_counter0                                                                       R6           1
+rx_buffer_overflow0                                                               R2.0      1bit
+tx_wr_index0                                                                      R9           1
+tx_rd_index0                                                                      R8           1
+tx_counter0                                                                       R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ext_int4_isr                                                                      0x000B0      1
+usart0_rx_isr                                                                     0x000B1     31
+getchar                                                                           0x000D0     19
+usart0_tx_isr                                                                     0x000E3     23
+putchar                                                                           0x000FA     27
+TCP                                                                               0x00115    212
+Run                                                                               0x001E9     51
+main                                                                              0x0021C    110
+put_usart_G101                                                                    0x0028A     14
+_print_G101                                                                       0x00298    308
+printf                                                                            0x003CC     37
+strlen                                                                            0x003F1     12
+strlenf                                                                           0x003FD     13

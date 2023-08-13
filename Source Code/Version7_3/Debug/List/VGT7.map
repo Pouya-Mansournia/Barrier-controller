@@ -1,0 +1,54 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_buffer0                                                                        0x0500      64
+tx_buffer0                                                                        0x0540      64
+rx_buffer1                                                                        0x0580      64
+tx_buffer1                                                                        0x05C0      64
+tx_wr_index1                                                                      0x0600       1
+tx_rd_index1                                                                      0x0601       1
+tx_counter1                                                                       0x0602       1
+adc_data                                                                          0x0603       2
+_seed                                                                             0x0605       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+E                                                                                 R5           1
+rx_wr_index0                                                                      R4           1
+rx_rd_index0                                                                      R7           1
+rx_counter0                                                                       R6           1
+rx_buffer_overflow0                                                               R2.0      1bit
+tx_wr_index0                                                                      R9           1
+tx_rd_index0                                                                      R8           1
+tx_counter0                                                                       R11          1
+rx_wr_index1                                                                      R10          1
+rx_rd_index1                                                                      R13          1
+rx_counter1                                                                       R12          1
+rx_buffer_overflow1                                                               R2.1      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart0_rx_isr                                                                     0x000B9     27
+getchar                                                                           0x000D4     19
+usart0_tx_isr                                                                     0x000E7     17
+putchar                                                                           0x000F8     27
+usart1_rx_isr                                                                     0x00113     35
+usart1_tx_isr                                                                     0x00136     37
+adc_isr                                                                           0x0015B     11
+motorright                                                                        0x00166     83
+motorleft                                                                         0x001B9     20
+motor                                                                             0x001CD      3
+TCP                                                                               0x001D0    332
+Run                                                                               0x0031C    111
+main                                                                              0x0038B    149
+strlen                                                                            0x00420     12
+strlenf                                                                           0x0042C     13
+put_usart_G102                                                                    0x00439     14
+_print_G102                                                                       0x00447    308
+printf                                                                            0x0057B     37

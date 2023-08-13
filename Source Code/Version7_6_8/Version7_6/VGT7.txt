@@ -1,0 +1,66 @@
+       if(p<=100)
+       {
+       BUZZ=0;
+       }
+       else
+       {
+       BUZZ=1;
+       }
+
+
+
+
+                           if (SDW==1)
+                    {
+                          if (DS2==0)
+                          {
+
+                                    p=read_adc(7);
+                                    if(p<=100)
+                                    {
+                                    Re2=1;
+                                    Re1=1;
+                                    delay_ms(100);
+                                    break;
+                                    }
+                                    if (Mstop == 1 || RF2 == 1)
+                                    {
+                                    Re2=0;
+                                    Re3=0;
+                                    Re4=0;
+                                    Re1=0;
+                                    delay_ms(10);
+                                    break;
+                                    }
+                                    if (SUP==1)
+                                    {
+                                    Re2=0;
+                                    Re1=0;
+                                    delay_ms(10);
+                                    break;
+                                    }
+                          break;
+
+
+                          }
+                          break;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

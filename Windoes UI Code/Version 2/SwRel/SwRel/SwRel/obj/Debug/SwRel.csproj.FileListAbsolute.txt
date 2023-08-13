@@ -1,0 +1,12 @@
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\bin\Debug\SwRel.exe
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\bin\Debug\SwRel.pdb
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\MainWindow.baml
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\MainWindow.g.cs
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\App.g.cs
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel_MarkupCompile.cache
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.g.resources
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.Properties.Resources.resources
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.csproj.GenerateResource.Cache
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.exe
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.pdb
+C:\Users\morteza\Documents\Visual Studio 2013\Projects\SwRel\SwRel\obj\Debug\SwRel.csprojResolveAssemblyReference.cache
